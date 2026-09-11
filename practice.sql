@@ -1,5 +1,5 @@
 CREATE TABLE students (
-    id INTEGER,
+    id INTEGER PRIMARY KEY,
     name TEXT,
     age INTEGER
 );
