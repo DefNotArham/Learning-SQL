@@ -1,6 +1,6 @@
 CREATE TABLE students (
     id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    name TEXT,
+    name TEXT NOT NULL,
     age INTEGER
 );
 
@@ -39,4 +39,10 @@ WHERE id = 1234;
 
 SELECT age
 FROM students
-ORDER BY age ASC
+ORDER BY age ASC;
+
+CREATE TABLE tasks (
+    id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name TEXT NOT NULL,
+    completed BOOLEAN
+)
