@@ -1,13 +1,13 @@
 CREATE TABLE students (
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     name TEXT,
     age INTEGER
 );
 
-INSERT INTO students (id, name, age)
+INSERT INTO students (name, age)
 VALUES
-    (123, 'ARHAM', 17),
-    (1234, 'SQL', 17);
+    ('ARHAM', 17),
+    ('SQL', 17);
 
 SELECT id
 FROM students
