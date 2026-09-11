@@ -33,3 +33,6 @@ WHERE age = 16 OR age = 17;
 UPDATE students
 SET age = 18
 WHERE id = 1234;
+
+DELETE from students
+WHERE id = 1234;
