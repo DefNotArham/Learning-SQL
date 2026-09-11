@@ -28,3 +28,8 @@ WHERE id = 1234 OR age = 17;
 SELECT age
 FROM students
 WHERE age = 16 OR age = 17;
+
+
+UPDATE students
+SET age = 18
+WHERE id = 1234;
