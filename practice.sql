@@ -36,3 +36,7 @@ WHERE id = 1234;
 
 DELETE from students
 WHERE id = 1234;
+
+SELECT age
+FROM students
+ORDER BY age ASC
